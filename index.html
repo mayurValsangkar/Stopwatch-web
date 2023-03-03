@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Stopwatch App</title>
+    <!-- include CSS framework (Bootstrap) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 id ="app-name" class="text-center my-5">Stopwatch</h1>
+      <div class="row justify-content-center">
+        
+          <div class="card text-center">
+            <div class="card-body">
+              <h2 id="display">00:00:00</h2> <!-- display stopwatch time here -->
+              <button id="start-stop-btn" class="btn btn-primary" onclick="startStop()">Start</button> <!-- start/stop button -->
+              <button id="reset-btn" class="btn btn-secondary" onclick="reset()">Reset</button> <!-- reset button -->
+            </div>
+          </div>
+        
+      </div>
+    </div>
+
+    <!-- include Javascript file -->
+    <script src="stopwatch.js"></script>
+  </body>
+</html>
